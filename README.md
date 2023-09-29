@@ -17,5 +17,3 @@ added to this class as methods since they mutate those persistent varaibles.
 
 ## Lessons Learned
 Writing a lexer is fun!
-
-(Working on autograding ...)
