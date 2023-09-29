@@ -16,4 +16,4 @@ python3 --version # TODO: YOUR RUNTIME SETUP HERE.
 echo "Running Tokki ..."
 
 # As an example, I have provided how I would run my tokki.pyc.
-python3 tokki.pyc $1 > out.txt # TODO: REPLACE THIS WITH YOUR OWN COMMAND.
+python3 tokki.py $1 > out.txt # TODO: REPLACE THIS WITH YOUR OWN COMMAND.

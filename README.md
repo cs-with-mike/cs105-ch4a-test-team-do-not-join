@@ -3,15 +3,16 @@ Westmont College CS 105 Fall 2023
 Chapter 4 Assignment A
 
 ## Author Information
-- **Boaty McBoatface** bmcboatface@westmont.edu
-- **Thomas McTankengine** tmctankengine@westmont.edu
-- **Ovenly McEasybake** omceasybake@westmont.edu
+- **Mike Ryu** mryu@westmont.edu
 
 ## Overview
-(TODO: Describe in a sentence or two what this assignment is.)
+To practice the concepts we are learning throughout Chapter 4, we're going to be implementing a Syntax Analyzer. 
+The first part of this is performing lexical analysis, or, in other words, implementing our own lexer.
 
 ## Design Notes
-(TODO: Write any notable design decisions you made as you were working on this assignment.)
+I made a Tokki class that has a default constructor that takes in a sentence and has as its attributes 
+persistent variables to keep track of `lexeme`s, `next_char`, etc. `get_char` and `add_char` functions were
+added to this class as methods since they mutate those persistent varaibles.
 
 ## Lessons Learned
-(TODO: Describe any lessons learned while you were working on this assignment.)
+Writing a lexer is fun!
