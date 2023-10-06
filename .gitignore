@@ -1,0 +1,17 @@
+# macOS Custom Directory Properties
+.DS_Store
+
+# Part 1 Output Files
+out.txt
+out.inst.txt
+
+# Part B Output Files
+out.parser.sample.txt
+out.parser.txt
+
+# MISC Directories
+GradingResources
+.idea
+
+# Python Cache
+**/__pycache__
