@@ -186,7 +186,7 @@ def print_at_depth(t: Tokki, msg: str, entering=True, alter_depth=0, alt_symbol=
     if alter_depth >= 1:
         t.depth += alter_depth
 
-    print("{}?{}".format(
+    print("{} {}".format(
         (alt_symbol if alt_symbol else '>' if entering else '<') * t.depth,
         msg
     ))
